@@ -7,8 +7,5 @@ module.exports = {
       '!**/*.d.ts'
     ],
     coverageDirectory: 'coverage',
-    testEnvironment: 'node',
-    transform: {
-      '.+\\.(ts|tsx)$': 'ts-jest'
-    },
+    testEnvironment: 'node'
   }
